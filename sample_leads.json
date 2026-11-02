@@ -1,0 +1,32 @@
+[
+  {
+    "id": "TC1_assignment_sample",
+    "expected_class": "Hot",
+    "input": {"name": "Rahul Sharma", "company": "ABC Technologies", "website": "www.abctechnologies.com", "job_title": "Founder", "industry": "IT Services", "location": "Bangalore", "company_size": "50–100 Employees", "lead_source": "Website", "requirement": "Looking for CRM software", "email": "rahul@example.com", "phone": "+91 9876543210"}
+  },
+  {
+    "id": "TC2_ideal_lead",
+    "expected_class": "Hot",
+    "input": {"name": "Priya Nair", "company": "FinServe", "website": "https://finserve.in", "job_title": "CEO", "industry": "Fintech", "location": "Mumbai", "company_size": "100-200", "lead_source": "Referral", "requirement": "Need to implement a CRM urgently, budget approved this quarter", "email": "priya@finserve.in", "phone": "9812345678"}
+  },
+  {
+    "id": "TC3_mid_manager",
+    "expected_class": "Warm",
+    "input": {"name": "Amit Verma", "company": "Greenleaf Retail", "website": "greenleafretail.com", "job_title": "Marketing Manager", "industry": "Retail", "location": "Jaipur", "company_size": "20-50", "lead_source": "LinkedIn", "requirement": "Interested in a sales tool", "email": "amit@greenleafretail.com", "phone": "9123456780"}
+  },
+  {
+    "id": "TC4_cold_student",
+    "expected_class": "Cold",
+    "input": {"name": "Sam Lee", "company": "", "website": "", "job_title": "Student", "industry": "Education", "location": "London", "company_size": "1", "lead_source": "Purchased list", "requirement": "just exploring for a project", "email": "sam@gmail.com", "phone": ""}
+  },
+  {
+    "id": "TC5_missing_data",
+    "expected_class": "Cold",
+    "input": {"name": "Unknown Visitor", "email": "x@gmail.com"}
+  },
+  {
+    "id": "TC6_invalid_contact",
+    "expected_class": "Warm",
+    "input": {"name": "Neha Rao", "company": "Rao Logistics", "website": "not a website", "job_title": "Director", "industry": "Logistics", "location": "Pune", "company_size": "200-500", "lead_source": "Event", "requirement": "Looking for CRM software to replace spreadsheets", "email": "neha-at-raologistics", "phone": "123"}
+  }
+]
